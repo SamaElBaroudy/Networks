@@ -3,6 +3,6 @@ def readmessage(filename):
     lines = text_file.readlines()
     text_file.close()
     lines[0]=lines[0].replace("\n","")
-    msg=int(lines[0])
-    G=int(lines[1])
+    msg=lines[0]
+    G=lines[1]
     return msg, G
