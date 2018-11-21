@@ -46,7 +46,5 @@ def Transmitter(Data , Divisor):
     print("Remainder : ", remainder)
     print("Transmission_Data (Data + Remainder) : ",
           Transmission_Data)
-
-Data = "1101011111"
-Divisor = "10011"
+    
 Transmitter(Data, Divisor)
