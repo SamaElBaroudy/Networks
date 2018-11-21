@@ -1,0 +1,6 @@
+def Generator(path):
+    Message , Generator = readmessage(path)
+    Transmission_Data = Transmitter(Message,Generator)
+    return Transmission_Data 
+    
+print(Generator("Message.txt"))
