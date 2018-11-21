@@ -43,8 +43,4 @@ def Transmitter(Data , Divisor):
 
     # Append remainder in the original data
     Transmission_Data = Data + remainder
-    print("Remainder : ", remainder)
-    print("Transmission_Data (Data + Remainder) : ",
-          Transmission_Data)
-    
-Transmitter(Data, Divisor)
+    return Transmission_Data
