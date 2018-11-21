@@ -1,0 +1,8 @@
+def readmessage(filename):
+    text_file = open(filename, "r")
+    lines = text_file.readlines()
+    text_file.close()
+    lines[0]=lines[0].replace("\n","")
+    msg=int(lines[0])
+    G=int(lines[1])
+    return msg, G
