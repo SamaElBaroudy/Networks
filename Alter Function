@@ -1,3 +1,4 @@
+
 def alter(Input_Message , index):
     Binary_Input_Message = str(Input_Message)
     Decimal_Input_Message = int (Binary_Input_Message,2)
