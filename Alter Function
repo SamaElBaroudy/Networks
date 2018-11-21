@@ -1,0 +1,7 @@
+def alter(Input_Message , index):
+    Binary_Input_Message = str(Input_Message)
+    Decimal_Input_Message = int (Binary_Input_Message,2)
+    Altered_Decimal = (Decimal_Input_Message^ (1<<index))
+    Binary_Altered_Decimal = bin(Altered_Decimal)
+    String_Value = Binary_Altered_Decimal.replace('0b','')
+    return int(String_Value)
