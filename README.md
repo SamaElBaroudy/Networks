@@ -36,4 +36,3 @@ Command Window will appear
   ![GitHub Logo](https://github.com/SamaElBaroudy/Networks/blob/master/snapshots/example%20without%20alter.PNG)
   
 
-![](2n7dx1.gif)
