@@ -1,7 +1,7 @@
 # Cyclic Redundancy Checker 
 
 
-The program is an error detctor mechanism using the standard CRC algorithm
+The program is an error detector mechanism using the standard CRC algorithm
 
 It Contains 
 - Generator
