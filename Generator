@@ -1,5 +1,9 @@
 def Generator(path):
-    Message , Generator = readmessage(path)
-    Transmission_Data = Transmitter(Message,Generator)
-    return Transmission_Data 
+    Msg , Generator = readmessage(path)
+    global G
+    G = Generator
+    Transmission_Data = Transmitter(Msg,Generator)
+    global Message 
+    Message= Transmission_Data
+    #return Transmission_Data 
    
