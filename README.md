@@ -29,10 +29,13 @@ Command Window will appear
   
   ![GitHub Logo](https://github.com/SamaElBaroudy/Networks/blob/master/snapshots/gen%20alt%20verf%20command.PNG)
   
- ###### Running Test Cases 
+ ## Running Test Cases 
  
  ![GitHub Logo](https://github.com/SamaElBaroudy/Networks/blob/master/snapshots/example%20without%20alter.PNG)
  
   ![GitHub Logo](https://github.com/SamaElBaroudy/Networks/blob/master/snapshots/example%20without%20alter.PNG)
   
-
+  
+ ## GIF 
+ 
+![](Running_Examples.gif)
